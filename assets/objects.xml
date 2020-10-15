@@ -1,0 +1,66 @@
+<objetos>
+   <objeto category="BoxGeometry">
+       <titulo>Caixa colorida 1</titulo>
+       <!-- Posição: [-20,20] em x,y e z -->
+       <posx>18</posx>
+       <posy>-3</posy>
+       <posz>13</posz>
+       <!-- Escala: [3,6] -->
+       <escx>3</escx>
+       <escy>4</escy>
+       <escz>3</escz>
+    </objeto><objeto category="BoxGeometry">
+       <titulo>Caixa 2 colorfull</titulo>
+       <posx>-14</posx>
+       <posy>8</posy>
+       <posz>13</posz>
+       <escx>6</escx>
+       <escy>4</escy>
+       <escz>3</escz>
+    </objeto>
+    <objeto category="BoxGeometry">
+       <titulo>Teste Caixa 3</titulo>
+       <posx>20</posx>
+       <posy>-14</posy>
+       <posz>10</posz>
+       <escx>4</escx>
+       <escy>6</escy>
+       <escz>6</escz>
+    </objeto>
+    <objeto category="BoxGeometry">
+       <titulo>Caixa 4 teste</titulo>
+       <posx>8</posx>
+       <posy>20</posy>
+       <posz>15</posz>
+       <escx>3</escx>
+       <escy>4</escy>
+       <escz>3</escz>
+    </objeto>
+    <objeto category="BoxGeometry">
+       <titulo>Box 5</titulo>
+       <posx>-8</posx>
+       <posy>-1</posy>
+       <posz>14</posz>
+       <escx>3</escx>
+       <escy>4</escy>
+       <escz>3</escz>
+       </objeto>
+   <objeto category="BoxGeometry">
+       <titulo>6 Box</titulo>
+       <posx>11</posx>
+       <posy>20</posy>
+       <posz>20</posz>
+       <escx>6</escx>
+       <escy>6</escy>
+       <escz>6</escz>
+    </objeto>
+    <objeto category="BoxGeometry">
+       <titulo>6 Box</titulo>
+       <posx>-20</posx>
+       <posy>-20</posy>
+       <posz>-20</posz>
+       <escx>6</escx>
+       <escy>6</escy>
+       <escz>6</escz>
+    </objeto>
+</objetos>
