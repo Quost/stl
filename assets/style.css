@@ -121,3 +121,47 @@ body {
 .active .circle {
     transform: scale(0);
 }
+
+#sprite {
+    white-space: nowrap;
+    position: absolute;
+    /* let us position them inside the container */
+    left: 0;
+    /* make their default position the top left of the container */
+    top: 0;
+    cursor: pointer;
+    /* change the cursor to a hand when over us */
+    font-size: large;
+    user-select: none;
+}
+
+
+/* if (intersects.length > 0) {
+        if (intersects[0].object.id != ids[0] && intersects[0].object.id != ids[1]) {
+            for (let i = 0; i < intersects.length; i++)
+                console.log("intersects[" + i + "].object: " + intersects[i].object.id);
+        }
+        let id = intersects[0].object.id;
+        let newId = intersects[1].object.id;
+        console.log("displayInfo(intersects[0].object.id): " + id);
+        if (id != 14 && id != 16 && id != 18) {
+            alert("if");
+            atualizaIds(id, newId);
+            displayInfo(newId);
+        } else {
+            alert("else");
+            displayInfo(id);
+        }
+    }
+}
+
+function atualizaIds(id, newId) {
+    idToObject[newId] = idToObject[id];
+    tipoTexto[newId] = tipoTexto[id];
+    tipoTextoAnterior[newId] = tipoTextoAnterior[id];
+    info2[newId] = info2[id];
+    helper[newId] = helper[id];
+    mensagens[newId] = mensagens[id];
+    info[newId] = info[id];
+}
+} */
