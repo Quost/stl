@@ -5,21 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cube + cylinder</title>
-
-    <style>
-        body {
-            overflow: hidden;
-            margin: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
 
-    <form action="#">
-        <input type="checkbox" id="labels" name="labels" value="labels">
-        <label for="labels"> 5a</label><br>
-    </form>
+    <div id="container">
+        <button style="top:0" id="fire" class="button">Mudar estilo do texto</button>
+        <canvas id="c"></canvas>
+        <div id="labels"></div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="module" src="assets/script.js"></script>
